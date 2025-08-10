@@ -58,6 +58,25 @@
         </div>
     </main>
 
+    <section class="second-landing-page">
+        <div class="first-section">
+            <img src="" alt="">
+            <div class="image-caption">
+                <p class="head-of-title-caption">Visi</p>
+                <p class="title-caption">Visi Kami Adalah Memberikan Solusi Keterampilan Terkemuka</p>
+                <p class="content-caption">Kami memiliki sebuah visi yang besar yaitu mengarahkan ananda kepada kemampuan keterampilan interpersonal yang bertujuan menjadi bekal dan persiapan yang dapat digunakan untuk beradaptasi di masa era society 5.0</p>
+            </div>
+        </div>
+        <div class="first-section">
+            <img src="" alt="">
+            <div class="image-caption">
+                <p class="head-of-title-caption">Visi</p>
+                <p class="title-caption">Visi Kami Adalah Memberikan Solusi Keterampilan Terkemuka</p>
+                <p class="content-caption">Kami memiliki sebuah visi yang besar yaitu mengarahkan ananda kepada kemampuan keterampilan interpersonal yang bertujuan menjadi bekal dan persiapan yang dapat digunakan untuk beradaptasi di masa era society 5.0</p>
+            </div>
+        </div>
+    </section>
+
     <script>
         const hamburger = document.querySelector('.hamburger-menu');
         const navMenu = document.querySelector('nav ul');

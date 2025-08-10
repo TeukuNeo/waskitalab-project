@@ -22,7 +22,7 @@ body {
     font-family: "Poppins", sans-serif;
     line-height: 1.6;
     color: #333;
-    background-color: #fcefcf;
+    background-color: #FEF4EA;
 }
 
 a {
@@ -59,7 +59,7 @@ ul {
 
 .navbar nav a {
     font-weight: 600;
-    color: #555;
+    color: #031602;
     transition: color 0.3s ease;
 }
 
@@ -89,7 +89,7 @@ ul {
 /* HERO SECTION */
 .hero-section {
     display: flex;
-    padding: 4rem 5%;
+    padding: 8rem 5%;
     gap: 3rem;
     align-items: center;
 }
@@ -103,13 +103,13 @@ ul {
     font-weight: 700;
     line-height: 1.2;
     margin-bottom: 1.5rem;
-    color: #2c3e50;
+    color: #031602;
 }
 
 .content-left p {
     font-size: 1.1rem;
     margin-bottom: 2rem;
-    color: #666;
+    color: #031602;
 }
 
 .cta-buttons {
@@ -137,8 +137,8 @@ ul {
 
 .btn-secondary {
     background-color: #fff;
-    color: #1a73e8;
-    border-color: #1a73e8;
+    color: #031602;
+    border-color: #031602;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
@@ -199,6 +199,11 @@ ul {
 
 .image-caption .cta-link i {
     margin-left: 0.5rem;
+}
+
+.second-landing-page {
+    background-color: #FFF1D0;
+    height: 1080px;
 }
 
 /* MEDIA QUERIES for Responsive Design */
