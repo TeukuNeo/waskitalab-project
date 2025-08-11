@@ -95,7 +95,7 @@
         <div class="source-of-student">
             <div class="source-of-student-card">
                 <div class="logo-source-of-student">
-                    🎙️
+                    <i class="fa-solid fa-microphone"></i>
                 </div>
                 <div class="title-source-of-student">
                     <p>Public </br>Speaking</p>
@@ -110,12 +110,12 @@
                     </p>
                 </div>
                 <div class="button-source-of-student">
-                    <p>Selengkapnya</p>
+                    <a href="/halaman/pubspeak" class="cta-link">Selengkapnya <i class="fas fa-arrow-right"></i></a>
                 </div>
             </div>
             <div class="source-of-student-card">
                 <div class="logo-source-of-student">
-                    🎙️
+                    <i class="fa-solid fa-robot" style="padding: 8px;"></i>
                 </div>
                 <div class="title-source-of-student">
                     <p>Literasi Kecerdasan </br>Buatan</p>
@@ -130,12 +130,12 @@
                     </p>
                 </div>
                 <div class="button-source-of-student">
-                    <p>Selengkapnya</p>
+                    <a href="/halaman/ailiterature" class="cta-link">Selengkapnya <i class="fas fa-arrow-right"></i></a>
                 </div>
             </div>
             <div class="source-of-student-card">
                 <div class="logo-source-of-student">
-                    🎙️
+                    <i class="fa-solid fa-user-tie"></i>
                 </div>
                 <div class="title-source-of-student">
                     <p>Personal </br>Branding</p>
@@ -150,12 +150,12 @@
                     </p>
                 </div>
                 <div class="button-source-of-student">
-                    <p>Selengkapnya</p>
+                    <a href="/halaman/personalbranding" class="cta-link">Selengkapnya <i class="fas fa-arrow-right"></i></a>
                 </div>
             </div>
             <div class="source-of-student-card">
                 <div class="logo-source-of-student">
-                    🎙️
+                    <i class="fa-solid fa-briefcase"></i>
                 </div>
                 <div class="title-source-of-student">
                     <p>Freelancing Secara </br>Mandiri</p>
@@ -169,7 +169,7 @@
                     </p>
                 </div>
                 <div class="button-source-of-student">
-                    <p>Selengkapnya</p>
+                    <a href="/halaman/freelancing" class="cta-link">Selengkapnya <i class="fas fa-arrow-right"></i></a>
                 </div>
             </div>
         </div>
@@ -230,17 +230,21 @@
                 </div>
             </div>
         </div>
+        <div class="title-landing-page">
+            <p>Artikel </br>Waskita Lab</p>
+        </div>
+        <div class="article-frame">
+            <div class="article-container">
+                <img src="{{ URL::to('/') }}/images/education-1.jpg" width="580" height="356" alt="">
+                <div class="article-caption">
+                    <p class="article-type">EDUCATION</p>
+                    <p class="article-title">Tips & Trik Melakukan Journaling</p>
+                    <p class="article-date">Penulis - <span>7 Agustus, 2025</span></p>
+                </div>
+            </div>
+        </div>
     </section>
-
-    <script>
-        const hamburger = document.querySelector('.hamburger-menu');
-        const navMenu = document.querySelector('nav');
-
-        hamburger.addEventListener('click', () => {
-            navMenu.classList.toggle('active');
-            console.log('click..');
-        });
-    </script>
+    <script src="{{ asset('js/index.js') }}"></script>
 </body>
 
 </html>

@@ -142,7 +142,6 @@ ul {
 .btn-secondary {
     background-color: #fff;
     color: #031602;
-    border-color: #031602;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
@@ -160,7 +159,7 @@ ul {
     position: relative;
     width: 100%;
     max-width: 600px;
-    border-radius: 15px;
+    border-radius: 5px;
     overflow: hidden;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
 }
@@ -173,11 +172,10 @@ ul {
 
 .image-caption {
     position: absolute;
-    bottom: 20px;
-    left: 20px;
+    bottom: 0px;
     background-color: #ffd166;
     padding: 1.5rem 2rem;
-    border-radius: 10px;
+    border-radius: 5px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     max-width: 80%;
 }
@@ -206,6 +204,10 @@ ul {
 
 .image-caption .cta-link i {
     margin-left: 0.5rem;
+    background-color: #fcefcf;
+    border-radius: 10px;
+    padding: 3.5px;
+    transform: rotate(-45deg);
 }
 
 .title-landing-page {
@@ -214,7 +216,7 @@ ul {
 }
 
 .title-landing-page p {
-    font-weight: bold;
+    font-weight: 600;
 }
 
 /* Second Landing Page */
@@ -284,10 +286,13 @@ ul {
 
 .logo-source-of-student {
     background-color: #ffe097;
-    width: 25px;
-    height: 25px;
-    border-radius: 10px;
-    padding-bottom: 15px;
+    width: 35px;
+    height: 35px;
+    border-radius: 25px;
+}
+
+.logo-source-of-student i {
+    padding: 10px;
 }
 
 .title-source-of-student {
@@ -311,14 +316,14 @@ ul {
 
 .fourth-landing-page {
     background-color: #fff1d0;
-    height: 1080px;
+    height: 1440px;
     padding: 2.5% 5%;
 }
 
 .button-source-of-challenge {
     display: flex;
     margin-left: 1160px;
-    background-color: white;
+    background-color: #f0f8ff;
     border-radius: 25px;
     padding: 10px;
     width: 137px;
@@ -332,6 +337,7 @@ ul {
     justify-content: center;
     align-items: center;
     padding-top: 25px;
+    padding-bottom: 25px;
 }
 
 .source-of-challenge-card {
@@ -353,6 +359,63 @@ ul {
     padding-bottom: 15px;
     padding-top: 15px;
     color: #0b1215;
+}
+
+.button-source-of-student {
+    padding: 5px;
+}
+
+.button-source-of-student i {
+    background-color: #fcefcf;
+    border-radius: 10px;
+    padding: 3.5px;
+    transform: rotate(-45deg);
+    margin-left: 3rem;
+}
+
+/* Fifth Landing Page */
+
+.article-frame {
+    padding: 30px;
+}
+
+.article-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.article-container img {
+    border-radius: 5px;
+}
+
+.article-caption {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 50px;
+    left: 25px;
+}
+
+.article-type {
+    background-color: #101720;
+    font-weight: lighter;
+    padding: 5px;
+    width: 100px;
+    color: white;
+}
+
+.article-title {
+    color: white;
+    font-weight: 400;
+}
+
+.article-date {
+    color: white;
+    font-weight: 600;
+}
+
+.article-date span {
+    font-weight: lighter;
 }
 
 /* MEDIA QUERIES for Responsive Design */
@@ -422,7 +485,7 @@ ul {
     /* Fourth Landing Page */
 
     .fourth-landing-page {
-        height: 1160px;
+        height: 1860px;
         padding: 2.5% 5%;
     }
 
