@@ -19,11 +19,11 @@
         </div>
         <nav>
             <ul>
-                <li><a href="#">Tentang</a></li>
-                <li><a href="#">Sumber</a></li>
-                <li><a href="#">Proyek</a></li>
-                <li><a href="#">Artikel</a></li>
-                <li><a href="#">Kontak</a></li>
+                <li><a href="/halaman">Tentang</a></li>
+                <li><a href="/halaman#source">Sumber</a></li>
+                <li><a href="/halaman#project">Proyek</a></li>
+                <li><a href="/halaman#article">Artikel</a></li>
+                <li><a href="/halaman#contact">Kontak</a></li>
             </ul>
         </nav>
         <div class="user-menu">

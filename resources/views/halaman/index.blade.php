@@ -3,7 +3,7 @@
 @section("title","Waskita Landing Page")
 
 @section("content")
-    <main class="hero-section">
+    <main class="hero-section" id="hero">
         <div class="content-left">
             <h1>Kembangkan<br>Potensi Diri Bersama<br>Waskita Lab</h1>
             <p>Siap hadapi dunia profesional dengan kemampuan sosial yang terasah? Di Waskita Lab, kami bantu Anda mengembangkan kemampuan interpersonal langsung dari rumah, tingkatkan daya saing dan jadilah pribadi yang siap bersinar.</p>
@@ -24,7 +24,7 @@
         </div>
     </main>
 
-    <section class="second-landing-page">
+    <section class="second-landing-page" id="mission">
         <div class="title-landing-page">
             <p>Tentang Visi </br>Dan Misi Kami</p>
         </div>
@@ -54,7 +54,7 @@
         </div>
     </section>
 
-    <section class="third-landing-page">
+    <section class="third-landing-page" id="source">
         <div class="title-landing-page">
             <p>Sumber Utama </br>Untuk Siswa</p>
         </div>
@@ -141,7 +141,7 @@
         </div>
     </section>
 
-    <section class="fourth-landing-page">
+    <section class="fourth-landing-page" id="project">
         <div class="title-landing-page">
             <p>Tantangan Proyek </br>Untuk Siswa</p>
         </div>
@@ -196,7 +196,7 @@
                 </div>
             </div>
         </div>
-        <div class="title-landing-page">
+        <div class="title-landing-page" id="article">
             <p>Artikel </br>Waskita Lab</p>
         </div>
         <div class="article-frame">
