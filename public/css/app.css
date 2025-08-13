@@ -436,6 +436,12 @@ ul {
     font-weight: lighter;
 }
 
+/* Sixth Landing Page */
+.sixth-landing-page {
+    height: 100%;
+    padding: 2.5% 5%;
+}
+
 /* Footer */
 footer {
     height: 100%;
