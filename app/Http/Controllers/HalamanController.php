@@ -25,4 +25,8 @@ class HalamanController extends Controller
     function RoadmapFreelancing(){
         return view('halaman.RoadmapFreelancing');
     }
+
+    function Project() {
+        return view('halaman.Project');
+    }
 }

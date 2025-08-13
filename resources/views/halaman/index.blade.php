@@ -1,6 +1,6 @@
 @extends("layouts.layout")
 
-@section("title","Waskita Landing Page")
+@section("title","Waskita Lab Landing Page")
 
 @section("content")
     <main class="hero-section" id="hero">

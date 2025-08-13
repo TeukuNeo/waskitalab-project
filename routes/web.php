@@ -12,3 +12,4 @@ Route::get('/halaman/pubspeak', [HalamanController::class, "RoadmapPubSpeak"]);
 Route::get('/halaman/ailiterature', [HalamanController::class, "RoadmapLiteratureAI"]);
 Route::get('/halaman/personalbranding', [HalamanController::class, "RoadmapPersonalBranding"]);
 Route::get('/halaman/freelancing', [HalamanController::class, "RoadmapFreelancing"]);
+Route::get('/halaman/project', [HalamanController::class, "Project"]);
