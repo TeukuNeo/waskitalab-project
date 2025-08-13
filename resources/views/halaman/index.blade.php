@@ -150,7 +150,7 @@
             <p>Tantangan Proyek </br>Untuk Siswa</p>
         </div>
         <div class="button-source-of-challenge">
-            <a href="#" style="font-weight: 600; color:black;">Selengkapnya</a>
+            <a href="/halaman/project" style="font-weight: 600; color:black;">Selengkapnya</a>
         </div>
         <div class="source-of-challenge">
             <div class="source-of-challenge-card" style="background-color: #91dbff;">
