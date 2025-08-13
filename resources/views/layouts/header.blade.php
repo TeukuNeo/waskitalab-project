@@ -19,7 +19,7 @@
         </div>
         <nav>
             <ul>
-                <li><a href="/halaman">Tentang</a></li>
+                <li><a href="/halaman#hero">Tentang</a></li>
                 <li><a href="/halaman#source">Sumber</a></li>
                 <li><a href="/halaman#project">Proyek</a></li>
                 <li><a href="/halaman#article">Artikel</a></li>

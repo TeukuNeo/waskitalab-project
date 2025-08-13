@@ -16,6 +16,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -416,6 +417,18 @@ ul {
 
 .article-date span {
     font-weight: lighter;
+}
+
+/* Footer */
+footer {
+    height: 100%;
+    padding: 25px;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    color: white;
+    background-color: #001D3D;
+    text-align: center;
 }
 
 /* MEDIA QUERIES for Responsive Design */
