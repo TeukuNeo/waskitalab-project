@@ -8,8 +8,8 @@
         <h1>Kembangkan<br>Potensi Diri Bersama<br>Waskita Lab</h1>
         <p>Siap hadapi dunia profesional dengan kemampuan sosial yang terasah? Di Waskita Lab, kami bantu Anda mengembangkan kemampuan interpersonal langsung dari rumah, tingkatkan daya saing dan jadilah pribadi yang siap bersinar.</p>
         <div class="cta-buttons">
-            <a href="/halaman/about" class="btn btn-primary">Tentang Kami</a>
-            <a href="/halaman/contact" class="btn btn-secondary">Kontak Kami</a>
+            <a href="/halaman#about" class="btn btn-primary">Tentang Kami</a>
+            <a href="/halaman#contact" class="btn btn-secondary">Kontak Kami</a>
         </div>
     </div>
     <div class="content-right">
