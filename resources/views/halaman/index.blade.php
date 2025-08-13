@@ -29,7 +29,9 @@
             <p>Tentang Visi </br>Dan Misi Kami</p>
         </div>
         <div class="first-section">
-            <img src="{{ URL::to('/') }}/images/vission-template.jpg" alt="vission template">
+            <div class="image-zoom">
+              <img src="{{ URL::to('/') }}/images/vission-template.jpg" alt="vission template">
+            </div>
             <div class="second-landing-page-caption">
                 <div class="title-caption">
                     <p>Visi</p>
@@ -41,7 +43,9 @@
             </div>
         </div>
         <div class="second-section">
-            <img src="{{ URL::to('/') }}/images/mission-template.jpg" alt="mission template">
+            <div class="image-zoom">
+                <img src="{{ URL::to('/') }}/images/mission-template.jpg" alt="mission template">
+            </div>
             <div class="second-landing-page-caption">
                 <div class="title-caption">
                     <p>Misi</p>

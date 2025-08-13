@@ -3,5 +3,7 @@
 @section("title","Public Speaking")
 
 @section("content")
-    <h1>Roadmap Public Speaking</h1>
+<section>
+     <h1>Roadmap Public Speaking</h1>
+</section>
 @endsection
