@@ -442,6 +442,18 @@ ul {
     padding: 2.5% 5%;
 }
 
+/* Roadmap Page */
+
+.roadmap-page {
+    height: 100%;
+    width: 100%;
+    padding: 2.5% 5%;
+}
+
+.roadmap-container {
+    display: flex;
+}
+
 /* Footer */
 footer {
     height: 100%;
