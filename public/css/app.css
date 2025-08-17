@@ -472,6 +472,10 @@ footer {
     gap: 25px;
 }
 
+.footer-section ul li {
+    text-align: justify;
+}
+
 .footer-section-title {
     font-weight: bold;
 }

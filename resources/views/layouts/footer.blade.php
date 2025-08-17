@@ -9,7 +9,7 @@
                 <li><a href="">Freelancing Secara Mandiri</a></li>
             </ul>
         </div>
-        <div>
+        <div class="footer-section">
             <ul>
                 <li class="footer-section-title">Proyek</li>
                 <li><a href="">Proyek Klien</a></li>
@@ -17,7 +17,7 @@
                 <li><a href="">Proyek Personal Branding</a></li>
             </ul>
         </div>
-        <div>
+        <div class="footer-section">
             <ul>
                 <li class="footer-section-title">Kontak</li>
                 <li><a href="">Lokasi Kami</a></li>
@@ -25,7 +25,7 @@
                 <li><a href="">Alamat Email Kami</a></li>
             </ul>
         </div>
-        <div>
+        <div class="footer-section">
             <ul>
                 <li class="footer-section-title">Tentang</li>
                 <ul><a href="">Visi</a></ul>
