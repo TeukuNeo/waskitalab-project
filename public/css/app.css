@@ -469,7 +469,8 @@ footer {
 .footer-container {
     display: flex;
     justify-content: center;
-    gap: 25px;
+    padding: 50px;
+    gap: 70px;
 }
 
 .footer-section ul li {

@@ -1,6 +1,12 @@
 <footer>
     <div class="footer-container">
         <div class="footer-section">
+            <img src="{{ URL::to('/') }}/images/Waskita-Logo.png" width="100" height="50" alt="waskita logo">
+            <p>Kami Menawarkan Solusi </br>
+                Mengenai Permasalahan </br>
+                Softskill Siswa</p>
+        </div>
+        <div class="footer-section">
             <ul>
                 <li class="footer-section-title">Tentang</li>
                 <li><a href="">Public Speaking</a></li>
