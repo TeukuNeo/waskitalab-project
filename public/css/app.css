@@ -466,6 +466,16 @@ footer {
     text-align: center;
 }
 
+.footer-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.footer-section-title {
+    font-weight: bold;
+}
+
 /* MEDIA QUERIES for Responsive Design */
 @media (max-width: 1024px) {
     .hero-section {
