@@ -468,9 +468,15 @@ footer {
 
 .footer-container {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     padding: 50px;
     gap: 70px;
+}
+
+.footer-section .footer-caption{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
 }
 
 .footer-section ul li {
@@ -479,6 +485,13 @@ footer {
 
 .footer-section-title {
     font-weight: bold;
+}
+
+.footer-credit {
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    padding: 50px;
 }
 
 /* MEDIA QUERIES for Responsive Design */
