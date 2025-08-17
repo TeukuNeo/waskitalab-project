@@ -218,6 +218,13 @@
 <section class="sixth-landing-page" id="contact">
     <div class="title-landing-page">
         <p>Silahkan Hubungi Kontak Kami </br>Saling Mengenal Satu Sama Lain</p>
+        <div class="contact-input">
+            <input type="text">
+            <input type="text">
+            <input type="text">
+            <input type="text">
+            <textarea name="" id=""></textarea>
+        </div>
     </div>
 </section>
 @endsection

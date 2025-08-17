@@ -442,6 +442,12 @@ ul {
     padding: 2.5% 5%;
 }
 
+.contact-input {
+    display: grid;
+   
+    grid-column-start: auto;
+}
+
 /* Roadmap Page */
 
 .roadmap-page {
